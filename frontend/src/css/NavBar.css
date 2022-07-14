@@ -1,0 +1,9 @@
+/** @format */
+
+.active {
+  color: black;
+  opacity: 1;
+  font-size: large;
+  /* background-color: #87aadf; */
+  border-radius: 5px;
+}

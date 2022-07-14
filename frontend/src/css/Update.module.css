@@ -1,0 +1,80 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+.masterClassUpdate {
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerUpdate {
+  display: flex;
+  box-shadow: 0 10px 20px -5px rgba(41, 41, 41, 0.877);
+  flex-wrap: wrap;
+  border-radius: 10px;
+  /* grid-template-columns: 10rem repeat(3, 1fr) 10rem; */
+  font-family: "Lato";
+  justify-content: center;
+}
+
+.containerUpdate div:first-child {
+  /* grid-column: 2/3; */
+  border-radius: 20px 0 0 20px;
+}
+
+.containerUpdate div:last-child {
+  border-radius: 0 20px 20px 0;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  /* box-shadow: 0 10px 20px -5px rgba(41, 41, 41, 0.877); */
+}
+
+.box > input,
+.box > select {
+  width: 100px;
+  border: 0;
+  /* padding: 10px; */
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.containerUpdate .box label::after {
+  content: "*";
+  color: red;
+}
+
+.opt {
+  font-family: monospace;
+}
+
+.containerUpdate {
+  text-align: center;
+  width: fit-content;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgba(225, 215, 235, 0.726);
+}
+
+form > div:last-child {
+  /* background-color: red; */
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.submitBtn {
+  border: 0;
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}

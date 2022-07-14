@@ -1,0 +1,41 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@99.8,400&display=swap");
+
+.navbarmaster {
+  position: relative;
+}
+
+nav {
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  background-color: rgb(220, 236, 236);
+  padding: 10px 30px 10px 20px;
+  font-family: "Fredoka";
+  z-index: 100;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NavlinkStyle {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+.titleName {
+  /* width: 40%; */
+  display: flex;
+  align-items: center;
+  font-family: Fredoka;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(184, 8, 8, 0.979);
+}

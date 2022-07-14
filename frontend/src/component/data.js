@@ -1,0 +1,51 @@
+const cls = [
+  "NUR",
+  "LKG",
+  "UKG",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "11",
+  "12",
+];
+
+const monthArrayList = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sept",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
+const feesMap = {
+  NUR: 1500,
+  LKG: 1750,
+  UKG: 2000,
+  1: 2250,
+  2: 2500,
+  3: 2750,
+  4: 3000,
+  5: 3250,
+  6: 3500,
+  7: 3750,
+  8: 4000,
+  9: 4250,
+  10: 4500,
+  11: 4750,
+  12: 5000,
+};
+export { cls, monthArrayList, feesMap };

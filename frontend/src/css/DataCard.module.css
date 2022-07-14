@@ -1,0 +1,49 @@
+/** @format */
+
+.dataBox {
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 50px repeat(2, 3fr) repeat(5, 1fr) 50px;
+}
+
+.card .Heading:first-child {
+  grid-column: 2/3;
+}
+
+.card .Heading {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  border: 2px solid black;
+  /* padding: 5px 10px; */
+  padding: 10px;
+
+  /* background-color: red; */
+}
+
+.card .dt:first-child {
+  grid-column: 2/3;
+}
+
+.dt {
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.dataBox .card:nth-child(2n) .dt {
+  background-color: rgba(91, 93, 95, 0.664);
+}
+
+.dataBox .card .dt {
+  padding: 10px;
+  /* padding-right: 20px; */
+  word-break: break-all;
+  overflow-wrap: break-all;
+}
